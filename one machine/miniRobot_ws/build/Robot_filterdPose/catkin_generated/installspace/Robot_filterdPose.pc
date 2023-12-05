@@ -1,0 +1,8 @@
+prefix=/home/eldesouky/Desktop/miniRobot_ws/install
+
+Name: Robot_filterdPose
+Description: Description of Robot_filterdPose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

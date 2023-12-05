@@ -1,0 +1,27 @@
+// for search in the network 
+
+	nmap -sP 192.168.1.*
+
+// for edit wifi conf
+	
+	go to folder -> /etc/netplan/50-cloud-inity.yaml
+
+// for remote control rpi
+	ssh ubuntu@192.168.100.*
+
+// for reset arduino 
+	ard-reset-arduino /dev/ttyACM0
+
+// for set MASTER
+	export ROS_MASTER_URI=http://192.168.100.*:11311
+
+// for usb permassion
+	sudo chmod a+rw /dev/tty*
+
+// for script *.sh permassion 
+	sudo chmod +x *.sh 
+
+// for saving map 
+	rosrun map_server map_saver -f map
+
+

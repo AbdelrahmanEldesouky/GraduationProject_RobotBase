@@ -1,0 +1,8 @@
+prefix=/home/eldesoukyubuntu/miniRobot_ws/devel
+
+Name: Robot_filterdPose
+Description: Description of Robot_filterdPose
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

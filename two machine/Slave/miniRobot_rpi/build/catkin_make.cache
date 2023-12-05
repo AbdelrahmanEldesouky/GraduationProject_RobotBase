@@ -1,0 +1,2 @@
+Robot_rpiRun
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/Desktop/miniRobot_rpi/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/miniRobot_rpi/install -G Unix Makefiles

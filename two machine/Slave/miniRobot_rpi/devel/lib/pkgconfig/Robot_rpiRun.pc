@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Desktop/miniRobot_rpi/devel
+
+Name: Robot_rpiRun
+Description: Description of Robot_rpiRun
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

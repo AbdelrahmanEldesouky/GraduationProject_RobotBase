@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch> 
+ 
+	<node pkg="rosserial_python" type="serial_node.py" name="rosserial" output="screen">
+	  <param name="port" value="/dev/ttyACM0" />
+	  <param name="baud" value="57600" />
+	</node>
+
+	<include file = "$(find freenect_launch)/launch/freenect.launch">
+	    <arg name = "depth_registration" value = "true"/>
+	</include>
+
+	<!-- Kinect cloud to laser scan -->
+	<node pkg="depthimage_to_laserscan" 		type="depthimage_to_laserscan" name="depthimage_to_laserscan">
+  	    <remap from="image"     			to="/camera/depth_registered/image_raw"/>
+  	    <remap from="camera_info" 			to="/camera/rgb/camera_info"/>
+	    <remap from="scan"        			to="/kinect_scan"/>
+	    <param name="range_max" 			type="double" 		value="4"/>
+	</node>
+
+</launch> 

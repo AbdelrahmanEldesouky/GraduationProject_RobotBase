@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Desktop/miniRobot_rpi/devel
+
+Name: tf2_msgs
+Description: Description of tf2_msgs
+Version: 0.7.5
+Cflags: -I/home/ubuntu/Desktop/miniRobot_rpi/devel/include -I/home/ubuntu/Desktop/miniRobot_rpi/src/geometry2/tf2_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_generation geometry_msgs actionlib_msgs

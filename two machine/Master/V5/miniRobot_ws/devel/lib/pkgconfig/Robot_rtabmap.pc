@@ -1,0 +1,8 @@
+prefix=/home/eldesoukyubuntu/miniRobot_ws/devel
+
+Name: Robot_rtabmap
+Description: Description of Robot_rtabmap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

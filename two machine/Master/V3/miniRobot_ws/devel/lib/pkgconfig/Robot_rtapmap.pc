@@ -1,0 +1,8 @@
+prefix=/home/eldesouky/Desktop/miniRobot_ws/devel
+
+Name: Robot_rtapmap
+Description: Description of Robot_rtapmap
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

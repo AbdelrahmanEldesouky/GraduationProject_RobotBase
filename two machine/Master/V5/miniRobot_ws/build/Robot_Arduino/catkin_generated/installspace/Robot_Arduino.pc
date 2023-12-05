@@ -1,0 +1,8 @@
+prefix=/home/eldesoukyubuntu/miniRobot_ws/install
+
+Name: Robot_Arduino
+Description: Description of Robot_Arduino
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/eldesoukyubuntu/miniRobot_ws/install
+
+Name: Robot_run
+Description: Description of Robot_run
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

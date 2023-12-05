@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node type="rviz" name="rviz" pkg="rviz" args="-d /home/eldesouky/Desktop/miniRobot_ws/src/rviz/rvis_confMove.rviz" />
+
+</launch>

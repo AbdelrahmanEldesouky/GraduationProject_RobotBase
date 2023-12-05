@@ -1,0 +1,2 @@
+Robot_Arduino:Robot_GoToXY:Robot_description:Robot_filterdPose:Robot_gmapping:Robot_move:Robot_rtabmap:Robot_run:Robot_view
+-DCATKIN_DEVEL_PREFIX=/home/eldesouky/Desktop/miniRobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/eldesouky/Desktop/miniRobot_ws/install -G Unix Makefiles
